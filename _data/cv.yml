@@ -77,10 +77,10 @@
   type: nested_list
   contents:
     - title: Computer Vision
-      description: Scene Understanding
+      items: Scene Understanding
     - title: Machine Learning
-      description: Multi-Label Classification, Semi-Supervised and Few Shot Learning
+      items: Multi-Label Classification, Semi-Supervised and Few Shot Learning
     - title: Artificial Intelligence
-      description: Visual Reasoning, Visuo-Lingual Reasoning
-    - title: Autonomous Vehicle
-      description: Situational Awareness, Navigation
+      items: Visual Reasoning, Visuo-Lingual Reasoning
+    - title: Autonomous Vehicles
+      items: Situational Awareness, Navigation
