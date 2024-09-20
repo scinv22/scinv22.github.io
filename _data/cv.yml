@@ -76,6 +76,11 @@
 - title: Research Interests
   type: nested_list
   contents:
-    - title: Multi-Label Classification
-    - title: Visual Reasoning
-    - title: Road/Traffic Scene Understanding
+    - title: Computer Vision
+      description: Scene Understanding
+    - title: Machine Learning
+      description: Multi-Label Classification, Semi-Supervised and Few Shot Learning
+    - title: Artificial Intelligence
+      description: Visual Reasoning, Visuo-Lingual Reasoning
+    - title: Autonomous Vehicle
+      description: Situational Awareness, Navigation
