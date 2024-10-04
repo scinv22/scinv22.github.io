@@ -77,7 +77,7 @@
   type: nested_list
   contents:
     - title: Computer Vision
-      items: Scene Understanding
+      items: Scene Understanding, Video Understanding
     - title: Machine Learning
       items: Multi-Label Classification, Semi-Supervised and Few Shot Learning
     - title: Artificial Intelligence
