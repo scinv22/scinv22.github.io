@@ -81,6 +81,6 @@
     - title: Machine Learning
       items: Multi-Label Classification, Semi-Supervised and Few Shot Learning
     - title: Artificial Intelligence
-      items: Visual Reasoning, Visuo-Lingual Reasoning
+      items: Visual Reasoning, Vision-and-Language Reasoning
     - title: Autonomous Vehicles
-      items: Situational Awareness, Navigation
+      items: Situational Awareness, Vision-based Navigation
