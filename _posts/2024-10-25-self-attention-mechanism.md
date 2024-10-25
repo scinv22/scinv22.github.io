@@ -14,7 +14,7 @@ The **self-attention mechanism** lies at the heart of modern Transformer archite
 ## 1. Input Embeddings
 
 Let’s assume we have a **5-word sentence**:  
-> "The cat ate the fish."
+> "The man ate the apple."
 
 Each word is mapped to a **vector representation** (embedding) of fixed dimension $d = 3$. For simplicity, let’s define the embeddings for our 5 words as:
 
