@@ -1,15 +1,13 @@
 ---
 layout: post
-title:  Seld-Attention Mechanism
+title:  Understanding the Self-Attention Mechanism in Transformers
 date: 2024-10-25 21:01:00
 description: this is what included images could look like
 tags: formatting images
 categories: sample-posts
 ---
 
-In the attention mechanism, the dot product plays a crucial role in computing the similarity between two vectors, typically the query vector and a set of key vectors. Here’s a detailed look at what the dot product signifies:
-
-The dot product measures the alignment or similarity between the query (Q) and key (K) vectors.
+The self-attention mechanism lies at the heart of modern Transformer architectures, enabling models to capture contextual relationships between words (or tokens) in a sequence. In this post, we’ll break down the math behind self-attention step by step and show how it transforms input embeddings into context-aware representations.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
