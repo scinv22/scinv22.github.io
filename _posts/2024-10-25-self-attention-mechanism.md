@@ -9,6 +9,8 @@ categories: sample-posts
 
 In the attention mechanism, the dot product plays a crucial role in computing the similarity between two vectors, typically the query vector and a set of key vectors. Here’s a detailed look at what the dot product signifies:
 
+The dot product measures the alignment or similarity between the query (Q) and key (K) vectors.
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/attention-white.png" class="img-fluid rounded z-depth-1" zoomable=true %}
