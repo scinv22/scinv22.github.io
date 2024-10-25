@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  a post with images
+title:  Seld-Attention Mechanism
 date: 2024-10-25 21:01:00
 description: this is what included images could look like
 tags: formatting images
