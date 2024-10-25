@@ -85,7 +85,7 @@ $$
 
 ---
 
-## 4. Scaling the Scores by \( \sqrt{d} \)
+## 4. Scaling the Scores by $\( \sqrt{d} \)$
 
 To prevent the scores from becoming too large, we **scale** them by the square root of the embedding dimension \(d\):
 
