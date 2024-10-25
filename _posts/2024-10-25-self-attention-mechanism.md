@@ -16,7 +16,7 @@ The **self-attention mechanism** lies at the heart of modern Transformer archite
 Let’s assume we have a **5-word sentence**:  
 > "The cat ate the fish."
 
-Each word is mapped to a **vector representation** (embedding) of fixed dimension \(d = 3\). For simplicity, let’s define the embeddings for our 5 words as:
+Each word is mapped to a **vector representation** (embedding) of fixed dimension $d = 3$. For simplicity, let’s define the embeddings for our 5 words as:
 
 $$
 X = 
@@ -34,23 +34,23 @@ $$
 ## 2. Creating Queries, Keys, and Values (Q, K, V)
 
 In the **self-attention mechanism**, we generate **three learned copies** of the input matrix:
-- **Query matrix \(Q\)**  
-- **Key matrix \(K\)**  
-- **Value matrix \(V\)**  
+- **Query matrix $Q$**  
+- **Key matrix $K$**  
+- **Value matrix $V$**  
 
-These matrices are obtained by multiplying the input embeddings \(X\) with **learnable weight matrices** \(W^Q\), \(W^K\), and \(W^V\):
+These matrices are obtained by multiplying the input embeddings $X$ with **learnable weight matrices** $W^Q$, $W^K$, and $W^V$:
 
 $$
 Q = X W^Q, \quad K = X W^K, \quad V = X W^V
 $$
 
-For simplicity, let’s assume \(Q = X\), \(K = X\), and \(V = X\), i.e., we directly use the input embeddings as queries, keys, and values.
+For simplicity, let’s assume $Q = X$, $K = X$, and $V = X$, i.e., we directly use the input embeddings as queries, keys, and values.
 
 ---
 
 ## 3. Calculating the Dot Product Scores
 
-We compute the **dot product of each query with all keys** to measure their similarity. This gives us a **score matrix** \(S\), where each element \(S_{i,j}\) is the dot product between the **query for token \(i\)** and the **key for token \(j\)**.
+We compute the **dot product of each query with all keys** to measure their similarity. This gives us a **score matrix** $S$, where each element $S_{i,j}$ is the dot product between the **query for token $i$** and the **key for token $j$**.
 
 $$
 S = Q \cdot K^T
@@ -85,15 +85,15 @@ $$
 
 ---
 
-## 4. Scaling the Scores by $\( \sqrt{d} \)$
+## 4. Scaling the Scores by $ \sqrt{d} $
 
-To prevent the scores from becoming too large, we **scale** them by the square root of the embedding dimension \(d\):
+To prevent the scores from becoming too large, we **scale** them by the square root of the embedding dimension $d$:
 
 $$
 \hat{S} = \frac{S}{\sqrt{d}}
 $$
 
-Since \(d = 3\), we divide each element by \( \sqrt{3} \approx 1.732 \).
+Since $d = 3$, we divide each element by $ \sqrt{3} \approx 1.732 $.
 
 ---
 
@@ -159,9 +159,9 @@ $$
 
 Here is a step-by-step summary of how self-attention works:
 
-1. Generate \(Q\), \(K\), and \(V\) matrices from the input embeddings.
-2. Compute the **dot product** of \(Q\) and \(K^T\) to get the score matrix.
-3. **Scale** the scores by \( \sqrt{d} \).
+1. Generate $Q$, $K$, and $V$ matrices from the input embeddings.
+2. Compute the **dot product** of $Q$ and $K^T$ to get the score matrix.
+3. **Scale** the scores by $ \sqrt{d} $.
 4. Apply **softmax** to convert the scores into attention weights.
 5. Use the attention weights to compute **weighted sums** of the value vectors, resulting in the context vectors.
 
