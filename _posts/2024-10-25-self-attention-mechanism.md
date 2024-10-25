@@ -2,9 +2,9 @@
 layout: post
 title:  Understanding the Self-Attention Mechanism in Transformers
 date: 2024-10-25 21:01:00
-description: this is what included images could look like
-tags: formatting images
-categories: sample-posts
+description: Demystifying the elegance of the self-attention mechanism in Transformers through mathematics and intuitive explanations.
+tags: attention 
+categories: artificial-intelligence
 ---
 
 The **self-attention mechanism** lies at the heart of modern Transformer architectures. It enables models to capture **contextual relationships** between words (or tokens) within a sequence. In this post, we’ll break down the **math behind self-attention** step by step and show how it transforms input embeddings into **context-aware representations**.
