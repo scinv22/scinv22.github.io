@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Understanding the Self-Attention Mechanism in Transformers
-date: 2024-10-25 21:01:00
+date: 2024-10-27 21:01:00
 description: Demystifying the elegance of the self-attention mechanism in Transformers through mathematics and intuitive explanations.
 tags: attention 
 categories: artificial-intelligence
@@ -53,7 +53,7 @@ For simplicity, let’s assume $Q = X$, $K = X$, and $V = X$, i.e., we directly 
 We compute the **dot product of each query with all keys** to measure their similarity. This gives us a **score matrix** $S$, where each element $S_{i,j}$ is the dot product between the **query for token $i$** and the **key for token $j$**.
 
 $$
-S = Q \cdot K^T
+S = QK^T
 $$
 
 For our example:
@@ -67,7 +67,7 @@ S =
 1 & 0 & 1 \\ 
 0 & 1 & 2
 \end{bmatrix}
-\cdot
+\times
 \begin{bmatrix}
 1 & 2 & 0 & 1 & 0 \\ 
 0 & 1 & 1 & 0 & 1 \\ 
@@ -135,19 +135,7 @@ $$
 The **context vector** for each token is computed as a **weighted sum of the value vectors** using the attention weights. Mathematically:
 
 $$
-\text{Context Vector for Token } i = \sum_j A_{i,j} \cdot V_j
-$$
-
-For example, the **context vector for the first token** ("The (1)") is:
-
-$$
-C_1 = 0.173 \cdot [1, 0, 1] + 0.173 \cdot [2, 1, 0] + 0.173 \cdot [0, 1, 1] + 0.173 \cdot [1, 0, 1] + 0.308 \cdot [0, 1, 2]
-$$
-
-Evaluating:
-
-$$
-C_1 = [0.90, 0.41, 0.92]
+\text{Context Vector for Token } i = A_{i}V
 $$
 
 The **full set of context vectors** is:
