@@ -92,8 +92,8 @@ lastfm_id: # your lastfm id
 spotify_id: # your spotify id
 pinterest_id: # your pinterest id
 unsplash_id: # your unsplash id
-instagram_id: "scinv22" # Insta Id
-facebook_id: "scinv22" # your facebook id
+instagram_id: #"scinv22" # Insta Id
+facebook_id: #"scinv22" # your facebook id
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
