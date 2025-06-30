@@ -6,7 +6,7 @@ subtitle: CSIR- Senior Research Fellow at <a href='https://www.cmeri.res.in/'>CS
 
 profile:
   align: right
-  image: sumanchowdhurykgp_compressed.jpg
+  image: 1000078189.jpg
   image_circular: false # crops the image to make it circular
 
 news: true  # includes a list of news items
