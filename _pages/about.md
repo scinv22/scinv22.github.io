@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: CSIR- Senior Research Fellow at <a href='https://www.cmeri.res.in/'>CSIR-CMERI, Durgapur</a>
+subtitle: "CSIR- Senior Research Fellow at <a href='https://www.cmeri.res.in/'>CSIR-CMERI, Durgapur</a>"
 
 profile:
   align: right
