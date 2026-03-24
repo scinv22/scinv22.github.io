@@ -2,10 +2,10 @@
 layout: page
 title: Life
 permalink: /projects/
-description: “The object of life is not to be on the side of the majority, but to escape finding oneself in the ranks of the insane” —Marcus Aurelius
+description: "\"The object of life is not to be on the side of the majority, but to escape finding oneself in the ranks of the insane\" - Marcus Aurelius"
 nav: false
 nav_order: 2
-display_categories: 
+display_categories: []
 horizontal: false
 ---
 
