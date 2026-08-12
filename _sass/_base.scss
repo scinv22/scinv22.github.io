@@ -251,9 +251,24 @@ blockquote {
 // Social (bottom)
 
 .social {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  z-index: 1020; // below the fixed navbar (1030) and above normal page content
   text-align: center;
+  background-color: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-right: none;
+  border-radius: 8px 0 0 8px;
+  box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.15);
+  padding: 14px 10px;
   .contact-icons {
-    font-size: 4rem;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
     a {
       i::before {
         color: var(--global-text-color);
@@ -267,7 +282,7 @@ blockquote {
     }
   }
   .contact-note {
-    font-size: 0.8rem;
+    display: none; // no room for the note in the compact fixed widget
   }
   // X (Twitter): Font Awesome 5.15.4 (pinned by this theme) predates FA's official X glyph,
   // so it's rendered as a masked SVG instead of a font glyph. vertical-align: -0.125em matches
@@ -290,6 +305,18 @@ blockquote {
   }
   .contact-icons a:hover .fa-x-icon {
     background-color: var(--global-theme-color);
+  }
+}
+
+// Slightly smaller/tighter on narrow screens, but same fixed right-edge position
+// in every view - it never has to dodge the fixed footer at the bottom this way.
+@media (max-width: 576px) {
+  .social {
+    padding: 10px 6px;
+    .contact-icons {
+      font-size: 1.25rem;
+      gap: 12px;
+    }
   }
 }
 
