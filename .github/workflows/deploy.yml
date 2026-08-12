@@ -12,6 +12,15 @@ permissions:
   pages: write
   id-token: write
 
+env:
+  # actions/deploy-pages@v4 (and a few other actions used below) hasn't shipped
+  # Node 24 support yet - being forced onto it breaks its TLS handshake with
+  # api.github.com (see https://github.com/actions/deploy-pages/issues/410).
+  # This is GitHub's own documented opt-out, valid until Node 20 is fully
+  # removed from runners later in fall 2026:
+  # https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
+
 concurrency:
   group: "pages"
   cancel-in-progress: false
