@@ -1,12 +1,8 @@
+# Nothing in the theme currently includes this file (no repositories page
+# is wired up), so it has no visible effect. Left here in case you add a
+# repositories page later - replace with your own GitHub username/repos.
 github_users:
-  - torvalds
-  - alshedivat
+  # - scinv22
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  # - scinv22/scinv22.github.io

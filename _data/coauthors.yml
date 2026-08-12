@@ -1,34 +1,19 @@
-# "Adams":
-#   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-#     url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
-
-# "Podolsky":
-#   - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-#     url: https://en.wikipedia.org/wiki/Boris_Podolsky
+# Optional: linking a coauthor's name in the publications list to a URL
+# (their homepage, Scholar profile, etc). Matched by last name -> first
+# name variant, exactly as it appears in papers.bib.
 
 "Barnwal":
-  - firstname: ["Rajesh", "R.P."]
+  - firstname: ["Rajesh", "Rajesh P.", "R.P."]
     url: https://www.cmeri.res.in/user-details/1284
 
-# "Bach": 
-#   - firstname: ["Johann Sebastian", "J. S."]
-#     url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+# "Chakraborty":
+#   - firstname: ["Koustav"]
+#     url:
 
-#   - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-#     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+# "Farooq":
+#   - firstname: ["Yahya"]
+#     url:
 
-# "Przibram":
-#   - firstname: ["Karl"]
-#     url: https://link.springer.com/article/10.1007/s00016-019-00242-z
-
-# "Schrödinger":
-#   - firstname: ["Erwin"]
-#     url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-# "Lorentz":
-#   - firstname: ["Hendrik Antoon"]
-#     url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+# "Sahu":
+#   - firstname: ["Bidya"]
+#     url:

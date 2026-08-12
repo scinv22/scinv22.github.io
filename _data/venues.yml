@@ -1,6 +1,15 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"SSRN":
+  url: https://www.ssrn.com/
+  color: "#154867"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"CALCON":
+  url: https://ewh.ieee.org/r10/calcutta/
+  color: "#00629b"
+
+"CODS-COMAD":
+  url: https://ikdd.acm.org/
+  color: "#a41034"
+
+"ICDCN":
+  url: https://cs3-lab.github.io/isdcn/
+  color: "#2e7d32"
