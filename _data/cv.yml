@@ -71,16 +71,16 @@
         - CSIR JRF (GATE), Council of Scientific and Industrial Research
     - year: 2015-2019
       items: 
-        - Full Fee Scholarship (FFS), Jalpaiguri Government Engineering College
+        - Full Fee Scholarship (FFS), Jalpaiguri Government Engineering College, Govt. of West Bengal
 
 - title: Research Interests
   type: nested_list
   contents:
     - title: Computer Vision
-      items: Scene Understanding, Video Understanding
+      items: Event Detection, Event Understanding, Scene Understanding, Video Understanding
     - title: Machine Learning
-      items: Multi-Label Classification, Semi-Supervised and Few Shot Learning
-    - title: Artificial Intelligence
-      items: Visual Reasoning, Vision-and-Language Reasoning
-    - title: Autonomous Vehicles
-      items: Situational Awareness, Vision-based Navigation
+      items: Multi-Label Classification, Semi-Supervised Learning, Few-Shot Learning, Online Learning, Class Imbalance
+    - title: Cognitive Artificial Intelligence
+      items: Causal and Counterfactual Reasoning, Visual Reasoning, Vision-and-Language Reasoning
+    - title: Autonomous Vehicles and Agents
+      items: Situational Awareness, Vision-Based Navigation
