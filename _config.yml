@@ -2,16 +2,16 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Invictus # the website title (if blank, full name will be used instead)
 first_name: Suman
 middle_name: 
 last_name: Chowdhury
 email: chowdhurysuman.cmeri@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Academic website of Suman Chowdhury, CSIR JRF-GATE, CSIR-CMERI.
+  Academic website of Chowdhury Suman
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-keywords: suman chowdhury, machine learning, artificial intelligence, computer vision, acsir, csir, cmeri, jgec  # add your own keywords or leave empty
+keywords: suman chowdhury, machine learning, artificial intelligence, computer vision, autonomous agents, rmit, acsir, csir, cmeri, jgec  # add your own keywords or leave empty
  
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon:  ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
