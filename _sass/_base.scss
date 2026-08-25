@@ -510,6 +510,133 @@ footer.sticky-bottom {
 }
 
 
+// Gallery (Pinterest/Instagram-style masonry)
+
+.gallery-page {
+  margin-top: 1rem;
+}
+
+.gallery-filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-bottom: 2rem;
+}
+
+.gallery-filter-btn {
+  background: transparent;
+  border: 1px solid var(--global-divider-color);
+  color: var(--global-text-color-light);
+  padding: 0.4rem 1.15rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+
+  &:hover {
+    color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+  }
+
+  &.active {
+    background: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    color: var(--global-card-bg-color);
+  }
+}
+
+.masonry-gallery {
+  column-count: 1;
+  column-gap: 1.25rem;
+
+  @media (min-width: 576px) {
+    column-count: 2;
+  }
+
+  @media (min-width: 768px) {
+    column-count: 3;
+  }
+
+  @media (min-width: 1200px) {
+    column-count: 4;
+  }
+}
+
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 1.25rem;
+}
+
+.masonry-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 14px;
+  background: var(--global-card-bg-color);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  cursor: zoom-in;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.18);
+
+    img {
+      transform: scale(1.07);
+    }
+
+    .masonry-overlay {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  figure {
+    margin: 0;
+    line-height: 0;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.6s ease;
+  }
+}
+
+.masonry-overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1.5rem 1rem 0.9rem;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0));
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  pointer-events: none;
+}
+
+.masonry-title {
+  color: $white-color;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.3rem;
+}
+
+.masonry-tag {
+  display: inline-block;
+  color: $white-color;
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.15rem 0.55rem;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 999px;
+}
+
+
 // Publications
 
 .publications {
