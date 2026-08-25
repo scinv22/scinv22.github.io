@@ -1,8 +1,8 @@
 ---
-layout: cv
+layout: none
 permalink: /cv/
 title: CV
 nav: true
 nav_order: 3
-cv_pdf: Suman_CV.pdf
+redirect: /assets/pdf/Suman_CV.pdf
 ---
