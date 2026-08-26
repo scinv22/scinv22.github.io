@@ -32,7 +32,7 @@ nav_order: 2
       <div class="masonry-card">
         {% include figure.html path="assets/img/j2.jpg" alt="Ethereal view of the Himalayas from hostel-1" zoomable=true %}
         <div class="masonry-overlay">
-          <h3 class="masonry-title">Ethereal Himalayas</h3>
+          <h3 class="masonry-title">Himalayas from Jolu</h3>
           <span class="masonry-tag">Photography</span>
         </div>
       </div>
@@ -140,10 +140,30 @@ nav_order: 2
 
     <div class="masonry-item" data-category="art">
       <div class="masonry-card">
-        {% include figure.html path="assets/img/p1.jpg" alt="Einstein - Painting" zoomable=true %}
+        {% include figure.html path="assets/img/p5.jpg" alt="Einstein - Painting" zoomable=true %}
         <div class="masonry-overlay">
           <h3 class="masonry-title">Genius</h3>
           <span class="masonry-tag">Painting</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="masonry-item" data-category="photography">
+      <div class="masonry-card">
+        {% include figure.html path="assets/img/d1.jpg" alt="Moody" zoomable=true %}
+        <div class="masonry-overlay">
+          <h3 class="masonry-title">Moody</h3>
+          <span class="masonry-tag">Photography</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="masonry-item" data-category="photography">
+      <div class="masonry-card">
+        {% include figure.html path="assets/img/d2.jpg" alt="Depths of Darkness" zoomable=true %}
+        <div class="masonry-overlay">
+          <h3 class="masonry-title">Depth</h3>
+          <span class="masonry-tag">Photography</span>
         </div>
       </div>
     </div>
