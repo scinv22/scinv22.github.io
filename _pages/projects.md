@@ -217,7 +217,6 @@ nav_order: 2
       </div>
     </div>
 
-    
     <div class="masonry-item" data-category="travel" data-subcategory="mahabalipuram">
       <div class="masonry-card">
         {% include figure.html path="assets/img/m0.jpg" alt="Sunset over Mahabalipuram beach" zoomable=true %}
@@ -228,7 +227,6 @@ nav_order: 2
       </div>
     </div>
 
-    
     <div class="masonry-item" data-category="travel" data-subcategory="mahabalipuram">
       <div class="masonry-card">
         {% include figure.html path="assets/img/m1.jpg" alt="Rock-cut" zoomable=true %}
@@ -238,7 +236,6 @@ nav_order: 2
         </div>
       </div>
     </div>
-
     
     <div class="masonry-item" data-category="travel" data-subcategory="mahabalipuram">
       <div class="masonry-card">
@@ -250,7 +247,6 @@ nav_order: 2
       </div>
     </div>
 
-    
     <div class="masonry-item" data-category="travel" data-subcategory="mahabalipuram">
       <div class="masonry-card">
         {% include figure.html path="assets/img/m3.jpg" alt="Ganesha Ratha" zoomable=true %}
@@ -261,7 +257,6 @@ nav_order: 2
       </div>
     </div>
 
-    
     <div class="masonry-item" data-category="travel" data-subcategory="mahabalipuram">
       <div class="masonry-card">
         {% include figure.html path="assets/img/m4.jpg" alt="Rock-cut statue" zoomable=true %}
