@@ -180,7 +180,7 @@ nav_order: 2
 
     <div class="masonry-item" data-category="photography">
       <div class="masonry-card">
-        {% include figure.html path="assets/img/d2.jpg" alt="Rock-cut Statue at Mahabalipuram Shore Temple" zoomable=true %}
+        {% include figure.html path="assets/img/a3.jpg" alt="Rock-cut Statue at Mahabalipuram Shore Temple" zoomable=true %}
         <div class="masonry-overlay">
           <h3 class="masonry-title">History Calls</h3>
           <span class="masonry-tag">Photography</span>
