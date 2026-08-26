@@ -14,11 +14,39 @@ nav_order: 2
     <button class="gallery-filter-btn active" data-filter="all" type="button">All</button>
     <button class="gallery-filter-btn" data-filter="art" type="button">Art</button>
     <button class="gallery-filter-btn" data-filter="photography" type="button">Photography</button>
+    <button class="gallery-filter-btn" data-filter="travel" type="button">Travel</button>
+  </div>
+
+  <div class="gallery-subfilters" data-parent="art">
+    <button class="gallery-subfilter-btn active" data-subfilter="all" type="button">All</button>
+    <button class="gallery-subfilter-btn" data-subfilter="sketches" type="button">Sketches</button>
+    <button class="gallery-subfilter-btn" data-subfilter="paintings" type="button">Paintings</button>
+  </div>
+
+  <div class="gallery-subfilters" data-parent="photography">
+    <button class="gallery-subfilter-btn active" data-subfilter="all" type="button">All</button>
+    <button class="gallery-subfilter-btn" data-subfilter="yin" type="button">Yin</button>
+    <button class="gallery-subfilter-btn" data-subfilter="yang" type="button">Yang</button>
+  </div>
+
+  <div class="gallery-subfilters" data-parent="travel">
+    <button class="gallery-subfilter-btn active" data-subfilter="all" type="button">All</button>
+    <button class="gallery-subfilter-btn" data-subfilter="jodhpur" type="button">Jodhpur</button>
+    <button class="gallery-subfilter-btn" data-subfilter="delhi" type="button">Delhi</button>
+    <button class="gallery-subfilter-btn" data-subfilter="bhubaneshwar" type="button">Bhubaneshwar</button>
+    <button class="gallery-subfilter-btn" data-subfilter="chennai" type="button">Chennai</button>
+    <button class="gallery-subfilter-btn" data-subfilter="mahabalipuram" type="button">Mahabalipuram</button>
+    <button class="gallery-subfilter-btn" data-subfilter="bishnupur" type="button">Bishnupur</button>
+    <button class="gallery-subfilter-btn" data-subfilter="garh-panchakot" type="button">Garh Panchakot</button>
+    <button class="gallery-subfilter-btn" data-subfilter="ajodhya" type="button">Ajodhya</button>
+    <button class="gallery-subfilter-btn" data-subfilter="durgapur" type="button">Durgapur</button>
+    <button class="gallery-subfilter-btn" data-subfilter="parasnath" type="button">Parasnath</button>
+    <button class="gallery-subfilter-btn" data-subfilter="shantiniketan" type="button">Shantiniketan</button>
   </div>
 
   <div class="masonry-gallery">
 
-    <div class="masonry-item" data-category="art">
+    <div class="masonry-item" data-category="art" data-subcategory="sketches">
       <div class="masonry-card">
         {% include figure.html path="assets/img/p1.jpg" alt="Satyajit Ray - sketch" zoomable=true %}
         <div class="masonry-overlay">
@@ -28,7 +56,7 @@ nav_order: 2
       </div>
     </div>
 
-    <div class="masonry-item" data-category="photography">
+    <div class="masonry-item" data-category="photography" data-subcategory="yin">
       <div class="masonry-card">
         {% include figure.html path="assets/img/j2.jpg" alt="Ethereal view of the Himalayas from hostel-1" zoomable=true %}
         <div class="masonry-overlay">
@@ -38,7 +66,7 @@ nav_order: 2
       </div>
     </div>
 
-    <div class="masonry-item" data-category="art">
+    <div class="masonry-item" data-category="art" data-subcategory="sketches">
       <div class="masonry-card">
         {% include figure.html path="assets/img/p2.jpg" alt="Tiger - sketch" zoomable=true %}
         <div class="masonry-overlay">
@@ -48,7 +76,7 @@ nav_order: 2
       </div>
     </div>
 
-    <div class="masonry-item" data-category="photography">
+    <div class="masonry-item" data-category="photography" data-subcategory="yang">
       <div class="masonry-card">
         {% include figure.html path="assets/img/k2.jpg" alt="Birds over a Tibetan Buddhist monastery" zoomable=true %}
         <div class="masonry-overlay">
@@ -58,7 +86,7 @@ nav_order: 2
       </div>
     </div>
 
-    <div class="masonry-item" data-category="art">
+    <div class="masonry-item" data-category="art" data-subcategory="sketches">
       <div class="masonry-card">
         {% include figure.html path="assets/img/p3.jpg" alt="Wolf - sketch" zoomable=true %}
         <div class="masonry-overlay">
@@ -68,17 +96,17 @@ nav_order: 2
       </div>
     </div>
 
-    <div class="masonry-item" data-category="photography">
+    <div class="masonry-item" data-category="travel" data-subcategory="garh-panchakot">
       <div class="masonry-card">
         {% include figure.html path="assets/img/a2.jpg" alt="Garh Panchakot" zoomable=true %}
         <div class="masonry-overlay">
           <h3 class="masonry-title">Panchakot</h3>
-          <span class="masonry-tag">Photography</span>
+          <span class="masonry-tag">Garh Panchakot</span>
         </div>
       </div>
     </div>
 
-    <div class="masonry-item" data-category="photography">
+    <div class="masonry-item" data-category="photography" data-subcategory="yang">
       <div class="masonry-card">
         {% include figure.html path="assets/img/a4.jpg" alt="Sunset over Deul" zoomable=true %}
         <div class="masonry-overlay">
@@ -88,7 +116,7 @@ nav_order: 2
       </div>
     </div>
 
-    <div class="masonry-item" data-category="art">
+    <div class="masonry-item" data-category="art" data-subcategory="sketches">
       <div class="masonry-card">
         {% include figure.html path="assets/img/p4.jpg" alt="Cat — A sketch" zoomable=true %}
         <div class="masonry-overlay">
@@ -98,7 +126,7 @@ nav_order: 2
       </div>
     </div>
 
-    <div class="masonry-item" data-category="photography">
+    <div class="masonry-item" data-category="photography" data-subcategory="yang">
       <div class="masonry-card">
         {% include figure.html path="assets/img/k3.jpg" alt="Golden spire of a Tibetan Buddhist monastery in Kalimpong" zoomable=true %}
         <div class="masonry-overlay">
@@ -108,17 +136,17 @@ nav_order: 2
       </div>
     </div>
 
-    <div class="masonry-item" data-category="photography">
+    <div class="masonry-item" data-category="travel" data-subcategory="mahabalipuram">
       <div class="masonry-card">
         {% include figure.html path="assets/img/a1.jpg" alt="Sunset over Mahabalipuram beach" zoomable=true %}
         <div class="masonry-overlay">
           <h3 class="masonry-title">Chowdhurani at Sundown</h3>
-          <span class="masonry-tag">Photography</span>
+          <span class="masonry-tag">Mahabalipuram</span>
         </div>
       </div>
     </div>
 
-    <div class="masonry-item" data-category="photography">
+    <div class="masonry-item" data-category="photography" data-subcategory="yin">
       <div class="masonry-card">
         {% include figure.html path="assets/img/k4.jpg" alt="Prayer wheels at a Tibetan Buddhist monastery" zoomable=true %}
         <div class="masonry-overlay">
@@ -128,7 +156,7 @@ nav_order: 2
       </div>
     </div>
 
-    <div class="masonry-item" data-category="photography">
+    <div class="masonry-item" data-category="photography" data-subcategory="yin">
       <div class="masonry-card">
         {% include figure.html path="assets/img/k1.jpg" alt="Misty hills of Kalimpong" zoomable=true %}
         <div class="masonry-overlay">
@@ -138,7 +166,7 @@ nav_order: 2
       </div>
     </div>
 
-    <div class="masonry-item" data-category="art">
+    <div class="masonry-item" data-category="art" data-subcategory="paintings">
       <div class="masonry-card">
         {% include figure.html path="assets/img/p5.jpg" alt="Einstein - Painting" zoomable=true %}
         <div class="masonry-overlay">
@@ -148,7 +176,7 @@ nav_order: 2
       </div>
     </div>
 
-    <div class="masonry-item" data-category="photography">
+    <div class="masonry-item" data-category="photography" data-subcategory="yin">
       <div class="masonry-card">
         {% include figure.html path="assets/img/d1.jpg" alt="Moody" zoomable=true %}
         <div class="masonry-overlay">
@@ -158,53 +186,69 @@ nav_order: 2
       </div>
     </div>
 
-    <div class="masonry-item" data-category="photography">
+    <div class="masonry-item" data-category="photography" data-subcategory="yin">
       <div class="masonry-card">
         {% include figure.html path="assets/img/d2.jpg" alt="Depths of Darkness" zoomable=true %}
         <div class="masonry-overlay">
           <h3 class="masonry-title">Depth</h3>
-          <span class="masonry-tag">Photography</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="masonry-item" data-category="photography">
-      <div class="masonry-card">
-        {% include figure.html path="assets/img/d2.jpg" alt="Depths of Darkness" zoomable=true %}
-        <div class="masonry-overlay">
-          <h3 class="masonry-title">Depth</h3>
-          <span class="masonry-tag">Photography</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="masonry-item" data-category="photography">
-      <div class="masonry-card">
-        {% include figure.html path="assets/img/a3.jpg" alt="Rock-cut Statue at Mahabalipuram Shore Temple" zoomable=true %}
-        <div class="masonry-overlay">
-          <h3 class="masonry-title">History Calls</h3>
           <span class="masonry-tag">Photography</span>
         </div>
       </div>
     </div>
 
   </div>
+
+  <p class="gallery-empty" id="galleryEmpty" hidden>This corner of the gallery is still being curated — check back soon.</p>
 </div>
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    var buttons = document.querySelectorAll('.gallery-filter-btn');
+    var mainButtons = document.querySelectorAll('.gallery-filter-btn');
+    var subGroups = document.querySelectorAll('.gallery-subfilters');
     var items = document.querySelectorAll('.masonry-item');
+    var emptyMessage = document.getElementById('galleryEmpty');
 
-    buttons.forEach(function (btn) {
+    function applyFilter(category, subcategory) {
+      var visibleCount = 0;
+      items.forEach(function (item) {
+        var matchesCategory = category === 'all' || item.getAttribute('data-category') === category;
+        var matchesSub = !subcategory || subcategory === 'all' || item.getAttribute('data-subcategory') === subcategory;
+        var show = matchesCategory && matchesSub;
+        item.style.display = show ? '' : 'none';
+        if (show) { visibleCount++; }
+      });
+      if (emptyMessage) { emptyMessage.hidden = visibleCount !== 0; }
+    }
+
+    function showSubgroup(category) {
+      subGroups.forEach(function (group) {
+        var isMatch = group.getAttribute('data-parent') === category;
+        group.classList.toggle('is-open', isMatch);
+        if (isMatch) {
+          group.querySelectorAll('.gallery-subfilter-btn').forEach(function (b) {
+            b.classList.toggle('active', b.getAttribute('data-subfilter') === 'all');
+          });
+        }
+      });
+    }
+
+    mainButtons.forEach(function (btn) {
       btn.addEventListener('click', function () {
-        buttons.forEach(function (b) { b.classList.remove('active'); });
+        mainButtons.forEach(function (b) { b.classList.remove('active'); });
         btn.classList.add('active');
 
-        var filter = btn.getAttribute('data-filter');
-        items.forEach(function (item) {
-          var show = filter === 'all' || item.getAttribute('data-category') === filter;
-          item.style.display = show ? '' : 'none';
+        var category = btn.getAttribute('data-filter');
+        showSubgroup(category);
+        applyFilter(category, 'all');
+      });
+    });
+
+    subGroups.forEach(function (group) {
+      group.querySelectorAll('.gallery-subfilter-btn').forEach(function (subBtn) {
+        subBtn.addEventListener('click', function () {
+          group.querySelectorAll('.gallery-subfilter-btn').forEach(function (b) { b.classList.remove('active'); });
+          subBtn.classList.add('active');
+          applyFilter(group.getAttribute('data-parent'), subBtn.getAttribute('data-subfilter'));
         });
       });
     });

@@ -545,6 +545,64 @@ footer.sticky-bottom {
     border-color: var(--global-theme-color);
     color: var(--global-card-bg-color);
   }
+
+  &[data-filter="art"]::after,
+  &[data-filter="photography"]::after,
+  &[data-filter="travel"]::after {
+    content: "";
+    display: inline-block;
+    margin-left: 0.4rem;
+    border-left: 3.5px solid transparent;
+    border-right: 3.5px solid transparent;
+    border-top: 4px solid currentColor;
+    opacity: 0.6;
+    vertical-align: middle;
+  }
+}
+
+.gallery-subfilters {
+  display: none;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 0.5rem;
+  margin: -1rem 0 1.5rem;
+  padding: 0 0.15rem 0.4rem;
+  scrollbar-width: thin;
+
+  &.is-open {
+    display: flex;
+  }
+}
+
+.gallery-subfilter-btn {
+  flex: 0 0 auto;
+  background: transparent;
+  border: 1px solid var(--global-divider-color);
+  color: var(--global-text-color-light);
+  padding: 0.28rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+
+  &:hover {
+    color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+  }
+
+  &.active {
+    background: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    color: var(--global-card-bg-color);
+  }
+}
+
+.gallery-empty {
+  text-align: center;
+  color: var(--global-text-color-light);
+  font-style: italic;
+  padding: 3rem 1rem;
 }
 
 .masonry-gallery {
