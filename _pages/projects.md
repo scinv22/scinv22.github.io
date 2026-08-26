@@ -112,7 +112,7 @@ nav_order: 2
         {% include figure.html path="assets/img/k2.jpg" alt="Birds over a Tibetan Buddhist monastery" zoomable=true %}
         <div class="masonry-overlay">
           <h3 class="masonry-title">Wings Over the Monastery</h3>
-          <span class="masonry-tag">Photography</span>
+          <span class="masonry-tag">Kalimpong</span>
         </div>
       </div>
     </div>
@@ -162,7 +162,7 @@ nav_order: 2
         {% include figure.html path="assets/img/k3.jpg" alt="Golden spire of a Tibetan Buddhist monastery in Kalimpong" zoomable=true %}
         <div class="masonry-overlay">
           <h3 class="masonry-title">Golden Spire</h3>
-          <span class="masonry-tag">Photography</span>
+          <span class="masonry-tag">Kalimpong</span>
         </div>
       </div>
     </div>
@@ -172,7 +172,7 @@ nav_order: 2
         {% include figure.html path="assets/img/k4.jpg" alt="Prayer wheels at a Tibetan Buddhist monastery" zoomable=true %}
         <div class="masonry-overlay">
           <h3 class="masonry-title">Prayer Wheels</h3>
-          <span class="masonry-tag">Photography</span>
+          <span class="masonry-tag">Kalimpong</span>
         </div>
       </div>
     </div>
@@ -182,7 +182,7 @@ nav_order: 2
         {% include figure.html path="assets/img/k1.jpg" alt="Misty hills of Kalimpong" zoomable=true %}
         <div class="masonry-overlay">
           <h3 class="masonry-title">Misty Hills of Kalimpong</h3>
-          <span class="masonry-tag">Photography</span>
+          <span class="masonry-tag">Kalimpong</span>
         </div>
       </div>
     </div>
@@ -262,6 +262,56 @@ nav_order: 2
         {% include figure.html path="assets/img/m4.jpeg" alt="Rock-cut statue" zoomable=true %}
         <div class="masonry-overlay">
           <h3 class="masonry-title">Daemon</h3>
+          <span class="masonry-tag">Mahabalipuram</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="masonry-item" data-category="travel" data-subcategory="mahabalipuram">
+      <div class="masonry-card">
+        {% include figure.html path="assets/img/m5.jpeg" alt="Shore Temple" zoomable=true %}
+        <div class="masonry-overlay">
+          <h3 class="masonry-title">Shore Temple</h3>
+          <span class="masonry-tag">Mahabalipuram</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="masonry-item" data-category="travel" data-subcategory="mahabalipuram">
+      <div class="masonry-card">
+        {% include figure.html path="assets/img/m6.jpeg" alt="Shore" zoomable=true %}
+        <div class="masonry-overlay">
+          <h3 class="masonry-title">Shore</h3>
+          <span class="masonry-tag">Mahabalipuram</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="masonry-item" data-category="travel" data-subcategory="mahabalipuram">
+      <div class="masonry-card">
+        {% include figure.html path="assets/img/m7.jpeg" alt="Shore" zoomable=true %}
+        <div class="masonry-overlay">
+          <h3 class="masonry-title">Shore</h3>
+          <span class="masonry-tag">Mahabalipuram</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="masonry-item" data-category="travel" data-subcategory="mahabalipuram">
+      <div class="masonry-card">
+        {% include figure.html path="assets/img/m8.jpeg" alt="Krishna's Butter Ball" zoomable=true %}
+        <div class="masonry-overlay">
+          <h3 class="masonry-title">Krishna's Butter Ball</h3>
+          <span class="masonry-tag">Mahabalipuram</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="masonry-item" data-category="travel" data-subcategory="mahabalipuram">
+      <div class="masonry-card">
+        {% include figure.html path="assets/img/m9.jpeg" alt="Arjuna's Penance" zoomable=true %}
+        <div class="masonry-overlay">
+          <h3 class="masonry-title">Arjuna's Penance</h3>
           <span class="masonry-tag">Mahabalipuram</span>
         </div>
       </div>
