@@ -11,7 +11,6 @@ profile:
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
 ---
 I am a joint PhD candidate at the [Academy of Scientific and Innovative Research (AcSIR)](https://acsir.res.in/) and the [Royal Melbourne Institute of Technology (RMIT University)](https://www.rmit.edu.au/), Melbourne. I am jointly supervised by [Dr. Rajesh P. Barnwal](https://www.cmeri.res.in/user-details/1284) at AcSIR, CSIR-CMERI, and [Dr. Haytham Fayek](https://haythamfayek.com/) and [Prof. Feng Xia](https://www.xia.ai/) at RMIT University. I'm currently based at the AI & IoT Lab of [CSIR&ndash;Central Mechanical Engineering Research Institute (CSIR-CMERI)](https://www.cmeri.res.in/), Durgapur, and will relocate to RMIT University in February 2027 to continue the program under my supervisors there.
 

@@ -15,6 +15,7 @@ nav_order: 2
     <button class="gallery-filter-btn" data-filter="art" type="button">Art</button>
     <button class="gallery-filter-btn" data-filter="photography" type="button">Photography</button>
     <button class="gallery-filter-btn" data-filter="travel" type="button">Travel</button>
+    <button class="gallery-filter-btn" data-filter="beasties" type="button">Beasties</button>
   </div>
 
   <div class="gallery-subfilters" data-parent="art">
