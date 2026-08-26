@@ -31,6 +31,7 @@ nav_order: 2
 
   <div class="gallery-subfilters" data-parent="travel">
     <button class="gallery-subfilter-btn active" data-subfilter="all" type="button">All</button>
+    <button class="gallery-subfilter-btn" data-subfilter="kalimpong" type="button">Kalimpong</button>
     <button class="gallery-subfilter-btn" data-subfilter="jodhpur" type="button">Jodhpur</button>
     <button class="gallery-subfilter-btn" data-subfilter="delhi" type="button">Delhi</button>
     <button class="gallery-subfilter-btn" data-subfilter="bhubaneshwar" type="button">Bhubaneshwar</button>
@@ -56,7 +57,7 @@ nav_order: 2
       </div>
     </div>
 
-    <div class="masonry-item" data-category="photography" data-subcategory="yin">
+    <div class="masonry-item" data-category="photography" data-subcategory="yang">
       <div class="masonry-card">
         {% include figure.html path="assets/img/j2.jpg" alt="Ethereal view of the Himalayas from hostel-1" zoomable=true %}
         <div class="masonry-overlay">
@@ -76,7 +77,7 @@ nav_order: 2
       </div>
     </div>
 
-    <div class="masonry-item" data-category="photography" data-subcategory="yang">
+    <div class="masonry-item" data-category="travel" data-subcategory="kalimpong">
       <div class="masonry-card">
         {% include figure.html path="assets/img/k2.jpg" alt="Birds over a Tibetan Buddhist monastery" zoomable=true %}
         <div class="masonry-overlay">
@@ -146,7 +147,7 @@ nav_order: 2
       </div>
     </div>
 
-    <div class="masonry-item" data-category="photography" data-subcategory="yin">
+    <div class="masonry-item" data-category="travel" data-subcategory="kalimpong">
       <div class="masonry-card">
         {% include figure.html path="assets/img/k4.jpg" alt="Prayer wheels at a Tibetan Buddhist monastery" zoomable=true %}
         <div class="masonry-overlay">
@@ -156,7 +157,7 @@ nav_order: 2
       </div>
     </div>
 
-    <div class="masonry-item" data-category="photography" data-subcategory="yin">
+    <div class="masonry-item" data-category="travel" data-subcategory="kalimpong">
       <div class="masonry-card">
         {% include figure.html path="assets/img/k1.jpg" alt="Misty hills of Kalimpong" zoomable=true %}
         <div class="masonry-overlay">
@@ -178,7 +179,7 @@ nav_order: 2
 
     <div class="masonry-item" data-category="photography" data-subcategory="yin">
       <div class="masonry-card">
-        {% include figure.html path="assets/img/d1.jpg" alt="Moody" zoomable=true %}
+        {% include figure.html path="assets/img/d1.jpg" alt="Mood" zoomable=true %}
         <div class="masonry-overlay">
           <h3 class="masonry-title">Moody</h3>
           <span class="masonry-tag">Photography</span>
