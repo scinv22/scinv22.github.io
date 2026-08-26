@@ -229,7 +229,7 @@ nav_order: 2
 
     <div class="masonry-item" data-category="travel" data-subcategory="mahabalipuram">
       <div class="masonry-card">
-        {% include figure.html path="assets/img/m1.jpg" alt="Rock-cut" zoomable=true %}
+        {% include figure.html path="assets/img/m1.jpeg" alt="Rock-cut" zoomable=true %}
         <div class="masonry-overlay">
           <h3 class="masonry-title">Rock-cut</h3>
           <span class="masonry-tag">Mahabalipuram</span>
@@ -239,7 +239,7 @@ nav_order: 2
     
     <div class="masonry-item" data-category="travel" data-subcategory="mahabalipuram">
       <div class="masonry-card">
-        {% include figure.html path="assets/img/m2.jpg" alt="Shore Temple" zoomable=true %}
+        {% include figure.html path="assets/img/m2.jpeg" alt="Shore Temple" zoomable=true %}
         <div class="masonry-overlay">
           <h3 class="masonry-title">Shore Temple</h3>
           <span class="masonry-tag">Mahabalipuram</span>
@@ -249,7 +249,7 @@ nav_order: 2
 
     <div class="masonry-item" data-category="travel" data-subcategory="mahabalipuram">
       <div class="masonry-card">
-        {% include figure.html path="assets/img/m3.jpg" alt="Ganesha Ratha" zoomable=true %}
+        {% include figure.html path="assets/img/m3.jpeg" alt="Ganesha Ratha" zoomable=true %}
         <div class="masonry-overlay">
           <h3 class="masonry-title">Ganesha Ratha</h3>
           <span class="masonry-tag">Mahabalipuram</span>
@@ -259,7 +259,7 @@ nav_order: 2
 
     <div class="masonry-item" data-category="travel" data-subcategory="mahabalipuram">
       <div class="masonry-card">
-        {% include figure.html path="assets/img/m4.jpg" alt="Rock-cut statue" zoomable=true %}
+        {% include figure.html path="assets/img/m4.jpeg" alt="Rock-cut statue" zoomable=true %}
         <div class="masonry-overlay">
           <h3 class="masonry-title">Daemon</h3>
           <span class="masonry-tag">Mahabalipuram</span>
