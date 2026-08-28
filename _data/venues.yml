@@ -13,3 +13,15 @@
 "ICDCN":
   url: https://cs3-lab.github.io/isdcn/
   color: "#2e7d32"
+
+"R-AL":
+  url: https://www.ieee-ras.org/publications/ra-l
+  color: "#00629b"
+
+"T-ITS":
+  url: https://ieee-itss.org/pub/t-its/
+  color: "#00629b"
+
+"CSUR":
+  url: https://dl.acm.org/journal/csur
+  color: "#a41034"

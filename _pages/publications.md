@@ -15,4 +15,7 @@ nav_order: 1
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
 
+  <h2 class="year">Under Review</h2>
+  {% bibliography -f papers -q @*[status=underreview]* %}
+
 </div>
