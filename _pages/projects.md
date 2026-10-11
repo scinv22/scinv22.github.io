@@ -318,6 +318,146 @@ nav_order: 2
       </div>
     </div>
 
+    <div class="masonry-item" data-category="beasties">
+      <div class="masonry-card">
+        {% include figure.html path="assets/img/b0.jpg" alt="Calico kitten sitting on stone pavement" zoomable=true %}
+        <div class="masonry-overlay">
+          <h3 class="masonry-title">Curiosity</h3>
+          <span class="masonry-tag">Beasties</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="masonry-item" data-category="beasties">
+      <div class="masonry-card">
+        {% include figure.html path="assets/img/b1.jpeg" alt="Hand petting a black and white dog at night" zoomable=true %}
+        <div class="masonry-overlay">
+          <h3 class="masonry-title">Midnight Friend</h3>
+          <span class="masonry-tag">Beasties</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="masonry-item" data-category="beasties">
+      <div class="masonry-card">
+        {% include figure.html path="assets/img/b2.jpeg" alt="Playful dog rolling on its back" zoomable=true %}
+        <div class="masonry-overlay">
+          <h3 class="masonry-title">Carefree</h3>
+          <span class="masonry-tag">Beasties</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="masonry-item" data-category="beasties">
+      <div class="masonry-card">
+        {% include figure.html path="assets/img/b3.jpeg" alt="Spotted deer standing among trees" zoomable=true %}
+        <div class="masonry-overlay">
+          <h3 class="masonry-title">In the Woods</h3>
+          <span class="masonry-tag">Beasties</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="masonry-item" data-category="beasties">
+      <div class="masonry-card">
+        {% include figure.html path="assets/img/b4.jpeg" alt="Close-up portrait of a spotted deer" zoomable=true %}
+        <div class="masonry-overlay">
+          <h3 class="masonry-title">Velvet</h3>
+          <span class="masonry-tag">Beasties</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="masonry-item" data-category="beasties">
+      <div class="masonry-card">
+        {% include figure.html path="assets/img/b5.jpg" alt="Ginger cat peering from behind a banana leaf" zoomable=true %}
+        <div class="masonry-overlay">
+          <h3 class="masonry-title">Under the Frond</h3>
+          <span class="masonry-tag">Beasties</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="masonry-item" data-category="beasties">
+      <div class="masonry-card">
+        {% include figure.html path="assets/img/b6.jpg" alt="Friendly brown dog standing on paved walkway at night" zoomable=true %}
+        <div class="masonry-overlay">
+          <h3 class="masonry-title">Beaming</h3>
+          <span class="masonry-tag">Beasties</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="masonry-item" data-category="beasties">
+      <div class="masonry-card">
+        {% include figure.html path="assets/img/b7.jpg" alt="Dog resting on a railway station platform" zoomable=true %}
+        <div class="masonry-overlay">
+          <h3 class="masonry-title">The Commuter</h3>
+          <span class="masonry-tag">Beasties</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="masonry-item" data-category="beasties">
+      <div class="masonry-card">
+        {% include figure.html path="assets/img/b8.jpg" alt="Ginger cat resting in a human hand" zoomable=true %}
+        <div class="masonry-overlay">
+          <h3 class="masonry-title">Contentment</h3>
+          <span class="masonry-tag">Beasties</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="masonry-item" data-category="beasties">
+      <div class="masonry-card">
+        {% include figure.html path="assets/img/b9.jpg" alt="Dog sleeping on pavement with human hand resting on it" zoomable=true %}
+        <div class="masonry-overlay">
+          <h3 class="masonry-title">Afternoon Nap</h3>
+          <span class="masonry-tag">Beasties</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="masonry-item" data-category="beasties">
+      <div class="masonry-card">
+        {% include figure.html path="assets/img/b10.jpg" alt="Black dog resting on tiled floor" zoomable=true %}
+        <div class="masonry-overlay">
+          <h3 class="masonry-title">Quiet Watch</h3>
+          <span class="masonry-tag">Beasties</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="masonry-item" data-category="beasties">
+      <div class="masonry-card">
+        {% include figure.html path="assets/img/b11.jpg" alt="Dog curled up sleeping on ground near bicycles" zoomable=true %}
+        <div class="masonry-overlay">
+          <h3 class="masonry-title">Street Snooze</h3>
+          <span class="masonry-tag">Beasties</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="masonry-item" data-category="beasties">
+      <div class="masonry-card">
+        {% include figure.html path="assets/img/b12.jpg" alt="Fluffy golden puppy lying on paved ground" zoomable=true %}
+        <div class="masonry-overlay">
+          <h3 class="masonry-title">Little Explorer</h3>
+          <span class="masonry-tag">Beasties</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="masonry-item" data-category="beasties">
+      <div class="masonry-card">
+        {% include figure.html path="assets/img/b13.jpg" alt="Hand stroking the head of a brown dog" zoomable=true %}
+        <div class="masonry-overlay">
+          <h3 class="masonry-title">Gentle Touch</h3>
+          <span class="masonry-tag">Beasties</span>
+        </div>
+      </div>
+    </div>
+
   </div>
 
   <p class="gallery-empty" id="galleryEmpty" hidden>This corner of the gallery is still being curated — check back soon.</p>
