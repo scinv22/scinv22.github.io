@@ -28,6 +28,7 @@ nav_order: 2
     <button class="gallery-subfilter-btn active" data-subfilter="all" type="button">All</button>
     <button class="gallery-subfilter-btn" data-subfilter="yin" type="button">Yin</button>
     <button class="gallery-subfilter-btn" data-subfilter="yang" type="button">Yang</button>
+    <button class="gallery-subfilter-btn" data-subfilter="yang" type="button">Wuji</button>
   </div>
 
   <div class="gallery-subfilters" data-parent="travel">
@@ -88,11 +89,11 @@ nav_order: 2
       </div>
     </div>
 
-     <div class="masonry-item" data-category="photography" data-subcategory="yin">
+     <div class="masonry-item" data-category="photography" data-subcategory="wuji">
       <div class="masonry-card">
         {% include figure.html path="assets/img/a6.jpg" alt="Abandoned" zoomable=true %}
         <div class="masonry-overlay">
-          <h3 class="masonry-title">Abandoned</h3>
+          <h3 class="masonry-title">Abandoned?</h3>
           <span class="masonry-tag">Photography</span>
         </div>
       </div>
@@ -213,6 +214,16 @@ nav_order: 2
         {% include figure.html path="assets/img/d2.jpg" alt="Depths of Darkness" zoomable=true %}
         <div class="masonry-overlay">
           <h3 class="masonry-title">Depth</h3>
+          <span class="masonry-tag">Photography</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="masonry-item" data-category="photography" data-subcategory="wuji">
+      <div class="masonry-card">
+        {% include figure.html path="assets/img/a9.jpg" alt="Cha" zoomable=true %}
+        <div class="masonry-overlay">
+          <h3 class="masonry-title">Cha</h3>
           <span class="masonry-tag">Photography</span>
         </div>
       </div>
